@@ -6,7 +6,10 @@ Vue.use(Router);
 
 export default new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  // base defaults to being read from vue.config.js for the base url but we
+  // don't want that because the routes will be nested under /assets/client.
+  // base: process.env.BASE_URL, // default
+  base: '/',
   routes: [
     {
       path: '/',
