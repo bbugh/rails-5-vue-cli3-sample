@@ -1,7 +1,8 @@
 {
-  "name": "client",
+  "name": "rails-5-vue-cli3-sample",
   "version": "0.1.0",
-  "private": true,
+  "author": "Brian Bugh",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
